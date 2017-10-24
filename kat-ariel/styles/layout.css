@@ -1,3 +1,82 @@
 .site-header {
   background-color: rgb(255,234,169);
+  padding: 0 3%;
+}
+
+.clearfix {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+.heading-group-h1 {
+  float: left;
+  width: 80%;
+}
+
+.icon-menu {
+  font-size: 7vh;
+}
+
+.main-nav {
+  float: right;
+  padding-right: 3%;
+}
+
+.main-nav ul {
+  display: none;
+}
+
+
+.main-nav:hover ul{
+  display: block;
+}
+
+.main-nav a{
+  text-decoration: none;
+  color: grey;
+  text-align: left;
+}
+.main-nav ul li{
+  color: grey;
+  list-style-type: none;
+  border-bottom: 1px solid grey;
+  text-align: left;
+}
+
+#nav-items {
+  float: left;
+}
+
+@media only screen and (min-width: 700px) {
+  .icon-menu {
+    display: none;
+  }
+  .main-nav {
+    clear: left;
+    float: left;
+    margin-left: -3.5%;
+  }
+  .main-nav ul{
+    display: inline-flex;
+    text-decoration: none;
+  }
+  .main-nav li {
+    font-size: 1.4em;
+    margin: 0 0.7em;
+  }
+  .main-nav:hover ul{
+    display: none;
+  }
+  .main-nav a{
+    text-decoration: none;
+    color: grey;
+    text-align: left;
+  }
+  .main-nav ul li{
+    color: grey;
+    list-style-type: none;
+    text-align: left;
+    border-bottom: none;
+  }
 }

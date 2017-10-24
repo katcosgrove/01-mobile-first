@@ -1,0 +1,24 @@
+.byline {
+  color: grey;
+}
+
+.byline address, time {
+  display: inline;
+}
+
+.byline address a{
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+  .pull-right {
+    float: right;
+    width: 42%;
+  }
+}
